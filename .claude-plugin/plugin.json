@@ -1,0 +1,6 @@
+{
+    "name": "emcalc-analyzer",
+    "version": "1.0.0",
+    "description": "Analyzes and interprets E=mc² energy calculation outputs from emcalc.py",
+    "author": "emcalc"
+}

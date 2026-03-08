@@ -75,3 +75,11 @@ Analysis:
 - **Joule (J):** Standard unit of energy. $1 \text{ Watt} = 1 \text{ Joule per second}$.
 - **Watt (W):** Rate of energy consumption.
 - **kWh (Kilowatt-hour):** $3.6 \times 10^6$ Joules. A highly practical unit to explain energy to users.
+
+## Python Validation Tool
+
+Kullanıcı efficiency değerleri girdiğinde şu scripti çalıştır:
+```bash
+python3 scripts/validate.py <practical_efficiency> <electric_efficiency>
+```
+Çıktıyı analiz et ve kullanıcıya açıkla.
