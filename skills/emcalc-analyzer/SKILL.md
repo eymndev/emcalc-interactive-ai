@@ -1,6 +1,8 @@
 ---
 name: emcalc-analyzer
+version: 1.0.0
 description: Skill to analyze and interpret the physics outputs of the emcalc (Energy-Mass Calculator) program.
+author: emcalc
 ---
 
 # emcalc_analyzer
