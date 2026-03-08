@@ -2,7 +2,7 @@
     "plugins": [
         {
             "name": "emcalc-analyzer",
-            "source": "./",
+            "source": "skills/emcalc-analyzer",
             "description": "Analyzes and interprets E=mc² energy calculation outputs from emcalc.py"
         }
     ]
