@@ -1,0 +1,17 @@
+{
+    "skill_name": "emcalc_analyzer",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Bu emcalc çıktısını analiz et: Theoretical energy (at 100% efficiency): 89875517873681 Joules. Practical energy (at 90.00% efficiency): 80887966086313 Joules. Can run for approximately 283107881 seconds.",
+            "expected_output": "The output corresponds to roughly 1 gram of mass being converted to energy. This shows the immense power of E=mc^2. Based on a 35% thermal-to-electric conversion efficiency, the generated electricity can run a 100W device for approximately 9 years.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Bu emcalc çıktısını analiz et: Practical energy (at 150.00% efficiency).",
+            "expected_output": "Warning: The provided practical efficiency is greater than 100% (150%). This is impossible due to the laws of thermodynamics. Recommend correcting the practical efficiency to a value between 0% and 100%.",
+            "files": []
+        }
+    ]
+}
